@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "install-client": "cd client && npm install",
-    "dev": "concurrently --kill-others \"npm start\" \"cd client && npm start\""
+    "dev": "concurrently --kill-others \"npm start\" \"cd client && npm start\"",
+    "rename": "node renamer.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",

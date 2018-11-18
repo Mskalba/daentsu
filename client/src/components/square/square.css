@@ -1,0 +1,8 @@
+#container {
+  height: 200px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  position: absolute;
+}

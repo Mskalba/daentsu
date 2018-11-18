@@ -22,6 +22,11 @@
   color: #61dafb;
 }
 
+.react-grid-layout div:not(.react-grid-layout){
+  text-align: center;
+  background: #ccc;
+  border: 1px solid black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
